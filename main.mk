@@ -15,3 +15,6 @@ include vendor/stag/config/fonts.mk
 
 # OTA
 include vendor/stag/config/ota.mk
+
+# Faceunlock
+$(call inherit-product-if-exists, external/motorola/faceunlock/config.mk)
